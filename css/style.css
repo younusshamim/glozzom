@@ -1,0 +1,152 @@
+/*-----------Navbar CSS----------*/
+.navbar{
+  background-color: #000;
+}
+.navbar .nav-item{
+  padding-left: 20px;
+}
+
+/*-----------Carousel CSS----------*/
+#carousel_wrap .carousel-item{
+  height: 450px;
+}
+#carousel_wrap .carousel_img1{
+  background: url("../img/background1.jpeg") no-repeat;
+  background-size: cover;
+}
+#carousel_wrap .carousel_img2{
+  background: url("../img/background2.jpeg") no-repeat;
+  background-size: cover;
+}
+#carousel_wrap .carousel_img3{
+  background: url("../img/background3.jpeg") no-repeat;
+  background-size: cover;
+}
+
+/*-----------Home icon CSS----------*/
+#hom_icon .fa{
+  font-size: 50px;
+}
+
+/*-------- Get started ------------*/
+#getstarted{
+  background: url("../img/image3.jpeg") no-repeat;
+  min-height: 210px;
+  background-size: cover;
+  background-attachment: fixed;
+}
+#getstarted .dark_overlay{
+  background: rgba(0, 0, 0, 0.5);
+  min-height: 210px;
+  background-size: cover;
+}
+
+/*-------- Home video section ------------*/
+#home_video{
+  background: url("../img/image1.jpeg") no-repeat;
+  min-height: 220px;
+  background-size: cover;
+  background-attachment: fixed;
+}
+#home_video .dark_overlay{
+  background: rgba(0, 0, 0, 0.5);
+  min-height: 220px;
+  background-size: cover;
+}
+#home_video a{
+  font-size: 50px;
+  color: #ff0000;
+}
+
+/*-----------Photo Gallery----------*/
+#photo_gallery img{
+  height: 240px;
+  width:100%;
+}
+
+/*-----------Footer----------*/
+#footer{
+  background-color: black;
+}
+/* _____ Home Page CSS End_______*/
+
+
+
+
+
+
+
+/*-----------About Header----------*/
+#about_header{
+  background: url("../img/image6.jpeg") no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+
+/*-----------about_info----------*/
+#about_info img{
+  height: 350px;
+  width: 350px;
+}
+
+/*-----------about_icon_boxes----------*/
+#about_icon_boxes i{
+  font-size: 50px;
+  margin-bottom: 10px;
+}
+
+/*-----------about Testimonial  ---------*/
+#about_estimonial .slick-prev::before, .slick-next::before {
+  color:black;
+}
+
+/*-------- Servoces Header ----------*/
+#services_header{
+  background: url("../img/background2.jpeg") no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+
+/*--------  ----------*/
+#blog_header{
+  background: url("../img/image5.jpeg") no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+
+/*-------- contact_header ----------*/
+#contact_header{
+  background: url("../img/image4.jpeg") no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+
+
+/*--------  ----------*/
+
+
+
+/*--------  ----------*/
+
+
+
+
+
+
+
+
+
+
+
+/*-----------Media Query start Here----------*/
+@media(max-width:767px){
+  .navbar .nav-item{
+    padding-left:0px;
+  }
+}
+
+@media(max-width:575px){
+  #carousel_wrap .carousel-caption h2{
+    font-size:40px;
+  }
+}
